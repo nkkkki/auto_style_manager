@@ -1,0 +1,40 @@
+[general]
+name=Auto Style Manager
+qgisMinimumVersion=3.0
+description=Automatically applies default styling to raster and vector layers when added to the project. Set opacity for rasters, colors and widths for vectors, and automatic labeling - all from one central dialog.
+version=1.0
+author=Nika Nemsitsveridze
+email=orbeli@hotmail.com
+
+about=This plugin allows you to set default styling for raster and vector layers that will be automatically applied when you add new layers to your QGIS project. Features include: automatic raster opacity control, resampling method selection, default colors and widths for point/line/polygon layers, automatic labeling with customizable font size and buffer, and the ability to apply settings to existing layers.
+
+tracker=https://github.com/yourusername/auto-style-manager/issues
+repository=https://github.com/yourusername/auto-style-manager
+# End of mandatory metadata
+
+# Recommended items:
+hasProcessingProvider=no
+changelog=1.0 - Initial release
+    - Auto-styling for raster layers (opacity, resampling)
+    - Auto-styling for vector layers (colors, widths)
+    - Automatic labeling configuration
+    - Apply to existing layers feature
+
+# Tags are comma separated with spaces allowed
+tags=style,raster,vector,automation,symbology,labels
+
+homepage=https://github.com/yourusername/auto-style-manager
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False

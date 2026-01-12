@@ -23,7 +23,7 @@ changelog=1.0 - Initial release
 # Tags are comma separated with spaces allowed
 tags=style,raster,vector,automation,symbology,labels
 
-homepage=https://github.com/yourusername/auto-style-manager
+homepage=https://github.com/nkkkki/auto-style-manager
 category=Plugins
 icon=icon.png
 experimental=False
@@ -37,4 +37,5 @@ Category of the plugin: Raster, Vector, Database or Web
 # category=
 
 # If the plugin can run on QGIS Server.
+
 server=False
